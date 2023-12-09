@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#02D1ECF6">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Travel Documents Management"
+        android:textSize="20dp"
+        android:textColor="#E9EC2222"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <!-- Upload Button aligned to top-center with marginTop -->
+    <Button
+        android:id="@+id/button_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload Document"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <!-- TextView styled with good text color and size, positioned below the button -->
+    <TextView
+        android:id="@+id/textView_files"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Files"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_below="@id/button_upload"
+        android:layout_marginTop="16dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000000"
+        android:layout_below="@id/textView_files"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="10dp"/>
+
+    <ListView
+        android:id="@+id/listView_files"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textView_files"/>
+</RelativeLayout>

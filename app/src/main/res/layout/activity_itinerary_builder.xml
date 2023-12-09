@@ -1,0 +1,72 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:id="@+id/parentLayout"
+        tools:context=".ItineraryBuilder">
+
+        <TextView
+            android:id="@+id/itineraryBuilderHeading"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="8dp"
+            android:gravity="center_vertical"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/daysEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:inputType="number"
+            android:hint="Number of Days"
+            android:layout_below="@id/itineraryBuilderHeading" />
+
+        <Spinner
+            android:id="@+id/citySpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="@android:drawable/btn_dropdown"
+            android:padding="8dp"
+            android:prompt="@string/select_city_prompt"
+            android:spinnerMode="dropdown"
+            android:layout_below="@id/daysEditText" />
+
+        <!-- LinearLayout for places -->
+        <LinearLayout
+            android:id="@+id/placesCardLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:orientation="vertical"
+            android:layout_below="@id/citySpinner"/>
+
+        <!-- Button to generate itinerary -->
+        <Button
+            android:id="@+id/generateItineraryButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:text="Generate Itinerary"
+            android:layout_below="@id/placesCardLayout" />
+
+        <TextView
+            android:id="@+id/itineraryTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="16dp"
+            android:layout_below="@id/generateItineraryButton"
+            android:enabled="false"/>
+    </RelativeLayout>
+</ScrollView>

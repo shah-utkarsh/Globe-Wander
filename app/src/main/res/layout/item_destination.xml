@@ -1,0 +1,29 @@
+<!-- res/layout/item_destination.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.8"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_margin="8dp">
+
+    <ImageView
+        android:id="@+id/imageDestination"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/image_description"/>
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageDestination"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+</LinearLayout>

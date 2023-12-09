@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/login_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center">
+
+
+        <!-- Interested Countries Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select interested countries"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Row 1: Paris and Tokyo -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkbox_paris"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Paris"
+                android:textColor="#FFFFFF" />
+            <CheckBox
+                android:id="@+id/checkbox_tokyo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Tokyo"
+                android:textColor="#FFFFFF"/>
+        </LinearLayout>
+
+        <!-- Row 2: Singapore and Italy -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkbox_singapore"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Singapore"
+                android:textColor="#FFFFFF"  />
+            <CheckBox
+                android:id="@+id/checkbox_italy"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Italy"
+                android:textColor="#FFFFFF"  />
+        </LinearLayout>
+
+        <!-- Row 3: Dubai and London -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkbox_dubai"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Dubai "
+                android:textColor="#FFFFFF" />
+            <CheckBox
+                android:id="@+id/checkbox_london"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="London"
+                android:textColor="#FFFFFF"  />
+        </LinearLayout>
+
+        <!-- Tentative Trip Start Date -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tentative trip start date"
+            android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+        <EditText
+            android:id="@+id/editTextStartDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Start Date"
+            android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:focusable="false"
+        android:clickable="true" />
+
+        <!-- Tentative Trip End Date -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tentative trip end date"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+        <EditText
+            android:id="@+id/editTextEndDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="End Date"
+            android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:focusable="false"
+        android:clickable="true" />
+
+        <!-- Interests Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Interests"
+            android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+
+        <!-- Row 1: Mountains and Beach -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkbox_mountains"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Mountains"
+                android:textSize="13dp"
+                android:textColor="#FFFFFF"  />
+
+            <CheckBox
+                android:id="@+id/checkbox_beach"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Beach"
+                android:textSize="13dp"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <!-- Row 2: Sunset Places and Snow -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkbox_sunset"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sunset Places"
+                android:textSize="13dp"
+                android:textColor="#FFFFFF"  />
+
+            <CheckBox
+                android:id="@+id/checkbox_snow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Snow"
+                android:textSize="13dp"
+                android:textColor="#FFFFFF"  />
+        </LinearLayout>
+
+        <!-- ... Other components below ... -->
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/buttonSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#FF9800"/>
+    </LinearLayout>
+</ScrollView>

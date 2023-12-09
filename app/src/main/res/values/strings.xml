@@ -1,0 +1,38 @@
+<resources>
+    <!-- Common -->
+    <string name="app_name">GlobeWander</string>
+
+    <!-- Main Activity -->
+    <string name="welcome_message">Welcome to GlobeWander!</string>
+
+    <!-- Login Activity -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Enter Email</string>
+    <string name="password">Enter Password</string>
+    <string name="login_error_message">Login failed. Please try again.</string>
+
+    <!-- Register Activity -->
+    <string name="register_title">Create Account</string>
+    <string name="registration_successful">Registration successful</string>
+    <string name="registration_failed">Registration failed</string>
+    <string name="weak_password_error_message">Password is too weak</string>
+    <string name="invalid_email_error_message">Invalid email address</string>
+
+    <!-- Error Messages -->
+    <string name="network_error_message">Network error. Please check your internet connection.</string>
+    <string name="generic_error_message">An error occurred. Please try again.</string>
+
+    
+    <string name="title_activity_create_blog">CreateBlogActivity</string>
+    <string name="title_activity_all_blogs">AllBlogsActivity</string>
+    <string name="title_activity_blog_detail">BlogDetailActivity</string>
+
+    <!-- Maps API key -->
+    <string name="MAPS_API_KEY">AIzaSyDP2_giA-5MIDH2aiXpcWETJ43WgGN-ypY</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_all_itineraries">AllItinerariesActivity</string>
+    <string name="title_activity_itinerary_detail">ItineraryDetailActivity</string>
+    <string name="select_city_prompt">Select City</string>
+    <string name="image_description">Image Description</string>
+</resources>

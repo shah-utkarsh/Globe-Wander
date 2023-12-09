@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFF8E1"> <!-- Soft lavender background -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Frequently Asked Questions"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="20dp"
+        android:textStyle="bold"
+        android:textColor="#00796B"/>
+
+    <EditText
+        android:id="@+id/questionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Post your question here"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Question"
+        android:backgroundTint="#00796B"
+        android:background="@android:color/holo_green_dark"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Answered Questions"
+        android:textSize="18sp"
+        android:paddingBottom="10dp"
+        android:textColor="#00796B"
+        android:layout_marginTop="20dp"/>
+
+    <ListView
+        android:id="@+id/faqListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="#BDBDBD"
+        android:dividerHeight="1dp"/>
+
+</LinearLayout>

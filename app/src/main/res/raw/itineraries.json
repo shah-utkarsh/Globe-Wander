@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Extravagant Paris",
+    "city": "Paris",
+    "days": "4",
+    "details": "Day-1: Visit the national art museum of Paris: Louvre Museum \n Day-2: Visit the most famous tourist attraction in Paris: The Eiffel Tower \n Day-3: Take a trip to the adventorous DisneyLand in Paris \n Day-4: Take the Paris city tour.",
+    "image": "paris1"
+  },
+  {
+    "id": 2,
+    "title": "Beautiful Paris",
+    "city": "Paris",
+    "days": "2",
+    "details": "Day-1: Visit the national art museum of Paris: Louvre Museum and the most famous tourist attraction in Paris: The Eiffel Tower \n Day-4: Take the Paris city tour.",
+    "image": "paris2"
+  },
+  {
+    "id": 3,
+    "title": "Modern Tokyo",
+    "city": "Tokyo",
+    "days": "2",
+    "details": "Day-1: Visit the famous skyscrappers in Tokyo: Tokyo Skytree and Tokyo Tower \n Day-2: Take the Tokyo City tour",
+    "image": "tokyo1"
+  },
+  {
+    "id": 4,
+    "title": "Dashing Dubai",
+    "city": "Dubai",
+    "days": "4",
+    "details": "Day-1: Visit the Dubai Mall and Burj Khalifa with light show \n Day-2: Take the desert Safari \n Day-3: Visit the Gold market and shopping markets of Dubai \n Day-4: Visit the famous Palm Island and Burj-Al-Arab",
+    "image": "dubai1"
+  },
+  {
+    "id": 5,
+    "title": "Scintilating Singapore",
+    "city": "Singapore",
+    "days": "3",
+    "details": "Day-1: Visit the Singapore Flyer with Gardens by the Bay \n Day-2: Visit the Sentossa Island \n Day-3: Take the Singapore City Tour",
+    "image": "singapore1"
+  },
+  {
+    "id": 6,
+    "title": "Splendid Singapore",
+    "city": "Singapore",
+    "days": "2",
+    "details": "Day-1: Visit the Singapore Flyer with Gardens by the Bay \n Day-2: Take the Singapore City Tour",
+    "image": "singapore2"
+  }
+]
